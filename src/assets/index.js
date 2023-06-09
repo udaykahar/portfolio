@@ -25,10 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import neunetics from "./company/neunetics.jpeg";
+import ggits from "./company/ggits.jpeg";
+import unelix from "./company/unelix.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import astrology from "./astrology.webp";
+import dataanalytics from "./dataanalytics.png";
+import soundscape from "./soundscape.png";
 
 export {
   logo,
@@ -56,7 +62,13 @@ export {
   shopify,
   starbucks,
   tesla,
+  neunetics,
+  unelix,
+  ggits,
   carrent,
   jobit,
   tripguide,
+  astrology,
+  dataanalytics,
+  soundscape,
 };

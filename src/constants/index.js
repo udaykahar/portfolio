@@ -19,9 +19,15 @@ import {
   starbucks,
   tesla,
   shopify,
+  ggits,
+  neunetics,
+  unelix,
   carrent,
   jobit,
   tripguide,
+  astrology,
+  dataanalytics,
+  soundscape,
   threejs,
 } from "../assets";
 
@@ -38,6 +44,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Resume",
+    URL_link: "https://drive.google.com/file/d/1BpqJnLFN1jqKZ88FkukHWHWRSGQ3ptKp/view?usp=sharing",
+  },
 ];
 
 const services = [
@@ -46,15 +57,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Reactjs Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Developer",
     icon: creator,
   },
 ];
@@ -71,10 +82,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -108,58 +115,41 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Student | CS'24",
+    company_name: "GGITS",
+    icon: ggits,
+    iconBg: "#fff",
+    date: "June 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Learned various computer science skills and subjects, including programming languages, data structures, algorithms, software engineering, and computer architecture.",
+      "Worked on multiple projects with different teams and solo, demonstrating ability to work independently and as part of a team, as well as ability to learn new technologies quickly.",
+      "Participated in hackathons, demonstrating passion for computer science and willingness to take risks to learn new things.",
+      "Led web master club, demonstrating leadership skills and ability to manage and motivate others.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Unilex Consultants",
+    icon: unelix,
+    iconBg: "#14212A",
+    date: "March 2021 - June 2021",
+    points: [
+      "Developing and maintaining website using javascript and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "React Developer",
+    company_name: "Neunetics",
+    icon: neunetics,
+    iconBg: "#000000",
+    date: "Augest 2021 - July 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,7 +162,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Uday proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +170,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Uday does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +178,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Uday optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,16 +188,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Book Appointments",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to book appointments for astrology consultations. This is a convenient and efficient way for users to get the advice and guidance they need from an astrologer.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "clendlyapi",
         color: "green-text-gradient",
       },
       {
@@ -215,8 +205,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: astrology,
+    source_code_link: "https://github.com/udaykahar/RJK",
+    web_link : "https://richaanshastrology.netlify.app/",
+  },
+  {
+    name: "Sound Scape",
+    description:
+      "An online store offering a wide range of headphones, catering to various preferences and budgets, with detailed product descriptions, user reviews, and seamless purchasing experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: soundscape,
+    source_code_link: "https://github.com/udaykahar/headphone-store",
+    web_link : "https://soundscapestore.vercel.app/",
   },
   {
     name: "Job IT",
@@ -239,27 +252,8 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+9
