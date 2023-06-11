@@ -12,14 +12,14 @@ const App = () => {
           <Hero />
         </div>
         <div className="whatsapp-button">
-        <ReactWhatsapp number="7489295278" message="test">
+        <ReactWhatsapp number="7489295278" message="test" className="bounce-image">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="WhatsApp" width="50" height="50" />
         </ReactWhatsapp>
         </div>
         <About />
         <Experience />
-        <Tech />
         <Works />
+        <Tech />
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
