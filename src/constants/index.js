@@ -125,10 +125,8 @@ const experiences = [
     iconBg: "#fff",
     date: "June 2020 - Present",
     points: [
-      "Learned various computer science skills and subjects, including programming languages, data structures, algorithms, software engineering, and computer architecture.",
+      "Learned various computer science skills and subjects, Participated in hackathons, Led web master club.",
       "Worked on multiple projects with different teams and solo, demonstrating ability to work independently and as part of a team, as well as ability to learn new technologies quickly.",
-      "Participated in hackathons, demonstrating passion for computer science and willingness to take risks to learn new things.",
-      "Led web master club, demonstrating leadership skills and ability to manage and motivate others.",
     ],
   },
   {
@@ -138,10 +136,8 @@ const experiences = [
     iconBg: "#14212A",
     date: "March 2021 - June 2021",
     points: [
-      "Developing and maintaining website using javascript and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained website using javascript and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
     ],
   },
   {
@@ -151,10 +147,8 @@ const experiences = [
     iconBg: "#000000",
     date: "Augest 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
